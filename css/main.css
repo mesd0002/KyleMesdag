@@ -1,4 +1,40 @@
+/* Styling body font size to 18px*/
+body{
+    font-size: 18px;
+}
+/* class that styles header and the footer */
+header, footer{
+    background-color:lightblue;
+}
+
+/* Styling site title, top header*/
 .site-title {
     background-color: blanchedalmond;
     color: blue
 }
+/* Styling image for drop shadow*/
+#my-image{
+    box-shadow:0px 0px 2px 1px black;
+}
+/* Styling hobbies list without affecting nav list*/
+
+.background-style li:nth-child(odd){
+    background-color: chocolate;
+    }
+
+nav ul{
+        list-style: none;
+        text-decoration: none;
+}
+/* Removing underline for nav links*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    }
+
+.navigation-style{
+    border: 1px solid black;
+    background: grey;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif
+    }
