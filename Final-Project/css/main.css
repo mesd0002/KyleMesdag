@@ -56,9 +56,11 @@ html {
     font-family: 'Open Sans', sans-serif;
     display: block;
 }
-
+h1,
 h2 {
+    font-weight: bold;
     font-size: 3em;
+    text-align: left;
 }
 
 /*styling nvaigation */
@@ -69,6 +71,7 @@ flex-direction: column;
 padding: 1rem;
 align-items: stretch;
 background-color: #222;
+width: 100%;
 }
 
 .nav-list li a {
@@ -137,15 +140,46 @@ padding: 1rem;
 
 /*Welcome page */
 .home {
-background-image: <img src="images/main-banner.jpg" alt="Three Stars Media" />;
-background-position: 55% 55%;
-  background-size: cover;
-  margin: 0;
+padding: 20px;
+align-items: center;
+text-align: left;
+background-size: cover;
+color: #fff;
     }
 
 .headerhome {
+      line-height: 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    color: #fff
+
+
+}
+.home {
+    background-image: url('../images/main-banner.jpg');
+    height: 800px;
+    width: 100%;
+  
+    }
+    
+.home a {
+        background-color: #c78c06;
+        color: #222;
+        padding: 1em 1.5em;
+        text-decoration: none;
+        position: absolute;
+        padding: 20px;
+}
+
+.aboutus {
+    background-color: #ffe6ac;       
+}
+
+.site-footer {
+    line-height: 1.5rem;
     padding: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff
+    color: #c78c06;
+    background-color: #222;
 }
