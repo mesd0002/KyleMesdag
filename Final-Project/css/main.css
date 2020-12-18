@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* WHERE THE CSS BEGINS!!! WOOT WOOT
+colours: #c78c06, #ffe6ac, #222 and white
+Starting with adding Google Fonts Open Sans */
+html {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+/*styling nvaigation */
+
+.nav-list {
+display: flex;
+flex-direction: column;
+padding: 1rem;
+align-items: stretch;
+background-color: #222;
+}
+
+.nav-list li a {
+display: flex;
+justify-content: center;
+padding: 1rem;
+}
+
+.logo {
+    background-color: #c78c06;
+    align-self: flex-start;
+    width: 100%;   
+}
+
+.homenav {
+    color: #222;
+    background-color: #c78c06;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.about {
+
+    color: #c78c06;
+    background-color: #222;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+.navservices {
+    color: #c78c06;
+    background-color: #222;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    }
+.team {
+    color: #c78c06;
+    background-color: #222;
+
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+.contact {
+    color: #c78c06;
+    background-color: #222;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+.search-container {
+    color: #c78c06;
+    background-color: #222;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.magbtn {
+    color: #c78c06;
+    background-color: #222;
+    border-color: #c78c06;
+}
+
+/*Welcome page */
+.home {
+background-image: <img src="images/main-banner.jpg" alt="Three Stars Media" />;
+background-position: 55% 55%;
+  background-size: cover;
+  margin: 0;
+    }
+
+.headerhome {
+    padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff
+}
