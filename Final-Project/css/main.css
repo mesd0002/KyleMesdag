@@ -172,11 +172,81 @@ color: #fff;
         position: absolute;
         padding: 20px;
 }
-
+/*About US */
 .aboutus {
     background-color: #ffe6ac;       
 }
 
+/*Digital Transformation */
+.digitaltransformation {
+    background-color: #ffe6ac; 
+}
+
+.digitaltransformation img:first-child {
+    width: 100%;
+    
+}
+.digitaltransformation a {
+    background-color: #c78c06;
+    color: #222;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    position: absolute;
+    padding: 20px;
+}
+/* Marketing */
+.marketing img:first-child {
+    width: 100%;
+}
+.marketing {
+        background-color: #ffe6ac; 
+}
+}
+.marketing a {
+    background-color: #c78c06;
+    color: #222;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    position: absolute;
+    padding: 20px;
+    background-color: #c78c06;
+   }
+
+/* Video Production */
+.videoproduction {
+    background-color: #ffe6ac; 
+}
+    .videoproduction a {
+        background-color: #c78c06;
+        color: #222;
+        padding: 1em 1.5em;
+        text-decoration: none;
+        position: absolute;
+        padding: 20px;
+        background-color: #c78c06;
+       }
+
+/* Web Development*/
+.webdevelopment {
+    background-color: #ffe6ac; 
+}
+.webdevelopment a {
+    background-color: #c78c06;
+    color: #222;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    position: absolute;
+    padding: 20px;
+    background-color: #c78c06;
+    
+   }
+
+/* Print */
+.print {
+    background-color: #ffe6ac; 
+}
+
+/*Footer style*/
 .site-footer {
     line-height: 1.5rem;
     padding: 20px;
